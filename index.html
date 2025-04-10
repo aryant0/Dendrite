@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Dendrite.ai - AI-Powered Sales Conversation Platform</title>
+    <meta name="title" content="Dendrite.ai - AI-Powered Sales Conversation Platform">
+    <meta name="description" content="Transform your sales outreach with AI-driven conversation intelligence and predictive lead scoring. Accelerate deal cycles with Dendrite's NLP-powered platform.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dendrite.ai/">
+    <meta property="og:title" content="Dendrite.ai - AI-Powered Sales Conversation Platform">
+    <meta property="og:description" content="Transform your sales outreach with AI-driven conversation intelligence and predictive lead scoring.">
+    <meta property="og:image" content="https://dendrite.ai/social-preview.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dendrite.ai/">
+    <meta property="twitter:title" content="Dendrite.ai - AI-Powered Sales Conversation Platform">
+    <meta property="twitter:description" content="Transform your sales outreach with AI-driven conversation intelligence and predictive lead scoring.">
+    <meta property="twitter:image" content="https://dendrite.ai/social-preview.jpg">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/src/assets/logo.webp">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#1a1a1a">
+
+    <!-- Preconnect to External Resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+
+  <body class="bg-gray-900">
+    <div id="root"></div>
+    
+    <!-- Netlify Form -->
+    <form name="contactUsForm" netlify netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contactUsForm">
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <textarea name="message"></textarea>
+    </form>
+
+    <!-- No Script Fallback -->
+    <noscript>
+      <div class="text-center text-white p-4 bg-red-600">
+        JavaScript is required to run this application. Please enable JavaScript to continue.
+      </div>
+    </noscript>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
